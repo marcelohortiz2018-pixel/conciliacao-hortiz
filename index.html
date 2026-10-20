@@ -173,6 +173,8 @@ p,li{text-wrap:pretty}
 .code{transition:background .15s}.code:hover{background:rgba(244,178,122,.18)}.code::selection,.code-chip::selection{background:var(--peach);color:#0f4c44}
 a.code-chip{text-decoration:none;cursor:pointer;display:inline-block}a.code-chip:hover{filter:brightness(1.06)}
 .vok{display:block;margin-top:6px;color:var(--check);font-weight:600}
+.aid{margin:0;padding:0;list-style:none;display:grid;gap:10px}.aid li{padding:12px 16px;border-left:4px solid var(--check);background:rgba(31,143,99,.1);border-radius:10px;line-height:1.5}
+.why{grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr))}
 h1 .q{display:block;font-size:clamp(1.9rem,4.4vw,3.2rem);line-height:1.06}
 h1 .q2{display:block;margin-top:.55em;font-size:clamp(1.05rem,2vw,1.35rem);line-height:1.3;font-weight:600;letter-spacing:-.01em;opacity:.85}
 h1 .a{display:block;margin-top:.5em;font-size:clamp(1.25rem,2.7vw,1.9rem);line-height:1.2;color:var(--orange);font-weight:800;letter-spacing:-.02em}
@@ -292,7 +294,7 @@ footer img{width:36px;height:36px;border-radius:50%}
   <div class="hero">
     <div class="copy">
       
-      <h1><span class="q"><mark class="prov">Provedor de Internet</mark>, será que os lançamentos do seu sistema estão <mark>batendo</mark> com o extrato?</span><span class="a">Descubra antes que a reforma tributária <mark class="hot">cobre a conta</mark>.</span></h1>
+      <h1><span class="q"><mark class="prov">Provedor de Internet</mark>, será que os lançamentos do seu sistema estão <mark>batendo</mark> com o extrato?</span><span class="a">Ganhe tempo e <mark class="hot">prepare seu financeiro</mark> para as novas exigências fiscais.</span></h1>
       <p class="sub">Ganhe <mark>produtividade</mark> na conciliação bancária e <mark>audite</mark> seus lançamentos com o extrato. <a class="go" href="#baixar"><b>Comece hoje. →</b></a></p>
       <div class="cta-row">
         <a class="btn primary" href="#baixar">Baixar degustação de 31 dias</a>
@@ -315,24 +317,36 @@ footer img{width:36px;height:36px;border-radius:50%}
 
 <div class="wrap">
   <section id="problema" style="padding-top:20px">
-    <div class="head"><p class="eyebrow">O problema</p><h2>Você está conciliando o seu ERP contra o extrato bancário?</h2><div class="urg">
-<p class="urg-lead">Se a resposta é não, <b>cada dia sem conciliar é um risco acumulando.</b></p>
-<p class="urg-q">Quantos extratos complicados você precisa analisar, um a um, para fechar o mês sem erros?</p>
-<p class="urg-t">Mesmo quem confere linha por linha todo mês deixa passar o que não enxerga:</p>
-<ul class="urg-l"><li>Lançamento <b>duplicado</b></li><li>Importação que <b>falhou</b></li><li>Valor <b>trocado</b></li></ul>
-<p class="urg-w"><b>Um único erro escondido</b> pode virar divergência no fechamento, retrabalho e problema com a reforma tributária.</p>
-<p class="urg-q2">Você consegue garantir, hoje, que está 100% correto?</p>
-<p class="urg-c">Faça agora a dupla checagem e descubra antes que alguém descubra por você.</p>
+    <div class="head"><p class="eyebrow">Para o novo cenário tributário</p><h2>O <mark>aliado</mark> do seu financeiro</h2><div class="urg">
+<p class="urg-lead">A nova Reforma Tributária traz exigências como o cruzamento de dados e o Split Payment. Por isso, <b>conferir os lançamentos do sistema com o extrato bancário deixou de ser preciosismo e passou a ser uma necessidade.</b></p>
+<p class="urg-t">Fazer isso de forma manual custa caro, consome horas da sua equipe e abre brechas para o erro.</p>
+<p class="urg-c">Dê à sua equipe a ferramenta certa para conferir os números com mais precisão e menos esforço.</p>
 </div></div>
     <div class="pains"><p class="pains-t">O que costuma ficar escondido até o fechamento</p><ul class="pain-list two-col">
       <li><span class="x">✕</span><div><b><mark>Erros de lançamento</mark></b><small>Valores e contas lançados errados</small></div></li>
       <li><span class="x">✕</span><div><b>Falhas de importação</b><small>Linhas que não entram ou entram duplicadas</small></div></li>
       <li><span class="x">✕</span><div><b><mark>Lançamentos arquivados sem motivo</mark></b><small>Itens deixados de lado sem justificativa</small></div></li>
       <li><span class="x">✕</span><div><b>Bagunça de extratos</b><small>Vários extratos e várias telas de conferência abertas ao mesmo tempo</small></div></li>
+      <li><span class="x">✕</span><div><b>Falta de lançamentos</b><small>Movimentos do extrato que nunca foram lançados no sistema</small></div></li>
+      <li><span class="x">✕</span><div><b>Lançamentos errados</b><small>Itens lançados na conta, no valor ou na data incorretos</small></div></li>
     </ul></div>
-    <p class="reform" style="margin-top:22px"><b>Reforma tributária:</b> financeiro sem conciliação e sem trilha de auditoria deixou de ser opcional. <a class="go" href="#baixar"><b>Comece hoje. →</b></a></p>
+    <p class="reform" style="margin-top:22px"><b>Novas regras fiscais:</b> conferir lançamentos contra o extrato ficou ainda mais importante, e a ferramenta certa ajuda sua equipe a ganhar tempo. <a class="go" href="#baixar"><b>Comece hoje. →</b></a></p>
   </section>
 
+  <section id="por-que" style="padding-top:0">
+    <div class="head"><p class="eyebrow">Por que usar</p><h2>Por que devo usar?</h2>
+      <p class="lead">O APP de Conciliação &amp; Classificação PDC — HortiZ &amp; Co. foi criado para ser a ferramenta de apoio de gestores e equipes financeiras.</p>
+      <p class="lead"><b>Ele não substitui o olhar do seu profissional: ele potencializa.</b> Atua como um assistente que assume o trabalho braçal pesado.</p></div>
+    <div class="grid why">
+      <div class="card"><h3>Reduz o tempo de conferência</h3><p>O que levava dias de análise linha por linha, o sistema cruza em minutos.</p></div>
+      <div class="card"><h3>Facilita a identificação de erros</h3><p>Identifique com facilidade onde estão os furos, falta de lançamentos, duplicidades ou falhas de importação.</p></div>
+      <div class="card"><h3>Ajuda a reduzir erros</h3><p>Ao levantar divergências com agilidade antes do fechamento, sua equipe corrige a tempo e evita pagamentos indevidos.</p></div>
+      <div class="card"><h3>Mais produtividade</h3><p>Importe vários extratos e os lançamentos do sistema de uma vez e deixe o cruzamento com o app.</p></div>
+      <div class="card"><h3>Praticidade no dia a dia</h3><p>Plano de contas, visão de caixa e gerencial e relatórios para consulta e backup, tudo no mesmo lugar.</p></div>
+      <div class="card"><h3>Testar sem compromisso</h3><p>31 dias grátis para experimentar com os seus dados, no seu computador.</p></div>
+    </div>
+    <p style="margin-top:18px"><a class="go" href="#baixar"><b>Comece hoje. →</b></a></p>
+  </section>
   <section id="solucao" style="padding-top:0">
     <div class="head"><p class="eyebrow">A solução</p><h2>Dois módulos no mesmo download</h2></div>
     <div class="two">
@@ -343,10 +357,10 @@ footer img{width:36px;height:36px;border-radius:50%}
   </section>
 
   <section style="padding-top:0">
-    <div class="head"><p class="eyebrow">Como funciona</p><h2>Do extrato ao relatório de divergências</h2><p class="lead">Chega de analisar extratos complicados e complexos um a um: em três passos você concilia com os lançamentos do seu sistema, sem erros.</p></div>
+    <div class="head"><p class="eyebrow">Como funciona</p><h2>Do extrato ao relatório de divergências</h2><p class="lead">Chega de analisar extratos complicados e complexos um a um: em três passos você cruza os extratos com os lançamentos do seu sistema, com mais agilidade e apoio para a sua equipe.</p></div>
     <div class="how">
       <ol class="steps">
-        <li><span class="n">1</span><div><b>Importe tudo de uma única vez</b>Vários extratos bancários e os arquivos de lançamentos do seu sistema ou planilhas, sem erros e sem complexidade. Tudo fica no mesmo lugar, organizado.</div></li>
+        <li><span class="n">1</span><div><b>Importe tudo de uma única vez</b>Vários extratos bancários e os arquivos de lançamentos do seu sistema ou planilhas, com menos complexidade. Tudo fica no mesmo lugar, organizado.</div></li>
         <li><span class="n">2</span><div><b>O sistema organiza e separa</b>Cada lançamento é separado entre o que veio do seu sistema (ERP) e o que veio do extrato bancário, e a conciliação acontece de forma rápida e simples.</div></li>
         <li><span class="n">3</span><div><b>Gere o relatório de conciliação</b>Exporte o relatório para consulta futura e backup, com o resultado pronto para o fechamento.</div></li>
       </ol>
@@ -380,7 +394,7 @@ footer img{width:36px;height:36px;border-radius:50%}
     <div class="grid cols3">
       <div class="card"><h3>+15 bancos nativos</h3><p>E layout novo sob demanda.</p></div>
       <div class="card"><h3>Reconhece o banco</h3><p>Arraste vários extratos de uma vez.</p></div>
-      <div class="card"><h3>Concilia com o ERP</h3><p>Auditoria automática, fecha no centavo.</p></div>
+      <div class="card"><h3>Concilia com o ERP</h3><p>Cruzamento automático que apoia a conferência.</p></div>
       <div class="card"><h3>Classifica no PDC</h3><p>Aprende com seus lançamentos no plano de contas.</p></div>
       <div class="card"><h3>OFX, Excel e CSV</h3><p>Vários arquivos ao mesmo tempo.</p></div>
       <div class="card"><h3>Relatórios de fechamento</h3><p>Prontos para arquivo e backup.</p></div>
